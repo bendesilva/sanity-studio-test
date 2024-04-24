@@ -11,6 +11,10 @@ export default defineConfig({
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
+  
+  search: {
+    enableLegacySearch: false, // Enable or disable legacy search
+  },
 
   schema: {
     types: schemaTypes,
