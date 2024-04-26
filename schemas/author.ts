@@ -27,7 +27,7 @@ export default defineType({
       name,
     }) {
       return {
-        title: categoryTitle,
+        title: `Category: ${categoryTitle}`,
         subtitle: name,
       }
     }
